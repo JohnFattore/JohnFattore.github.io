@@ -1,17 +1,76 @@
-# John Fattore's Stereo Speakers
-#### Video Demo:  <URL HERE>
-#### Description:
+# Dependencies
+First have node.js and npm installed
+npm install axios
+npm install react
 
-My final project for CS50x was jfattore.com, a website documenting my stereo speaker build. I started and fininshed both projects during the summer and so this crossover felt fitting. The website is made up of HTML, CSS, and Javascript code. I bought the domain and cloud hosting service from a website company. The project is uploaded to cPanel, the file manager for the cloud service. 
+# Leftover instructions from Initial Create React App
+# Getting Started with Create React App
 
-The website hosting service I purchased only supported static webpages. This means that I can't talk to a backend and dynamically create HTML pages like with Flask. However, HTML, CSS, and Javascript together are more than powerful enough to make an adequete webpage.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Bootstrap is a life saver when it comes to webpage styling. The line 
-> <meta name="viewport" content="width=device-width, initial-scale=1">
-is a powerful line that formats the page to fit whatever device the page is being viewed on. The line. To make sure the parts of the webpage is actually able to shrink and expand to fit the browser, the lines below are useful.
-> <class="container-fluid"> and <img class="img-fluid">
-container-fluid for div, and img-fluid for images
+## Available Scripts
 
-There is a bit of Javascript on the board foot calculator. The page takes in 3 arguements (length, width, thickness) and spits out the board foot calculation.
+In the project directory, you can run:
 
-Some other software I used for this project are cPanel and git/Github. cPanel is a powerful file manager used with many cloud hosting services. First the folder where the website files should be placed needs to be found. In my case public.html was the folder name. Next, a zip file of all the code is uploaded and extracted. The homepage must be called index.html for cPanel to recognize it. Git is a very powerful tool in software development and so I made it a point to use it for this project. I uploaded the files to Github and then was able to access it anywhere. I could make changes to the files and then push and commit it to the origin so that I can see the changes anywhere. 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
